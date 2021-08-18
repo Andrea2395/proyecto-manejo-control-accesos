@@ -1,0 +1,19 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "13.89.239.86",
+  "port": "22",
+  "target": "/home/andreaRM/projects",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "andreaRM",
+  "password": "Yoda2816*Naga",
+  "watch": [],
+  "transport": "scp"
+}
