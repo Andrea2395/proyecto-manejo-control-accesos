@@ -1,2 +1,12 @@
----
-# tasks file for server-update
+- name: Ejecucion del update
+  apt:
+      update_cache: yes
+      state: latest
+      become: true
+      when: ansible_os_family == "Debian"
+- name: Actualizar servidores
+  apt:
+      name: "*"
+      state: latest
+      become: true
+      when: ansible_os_family == "Debian"
