@@ -1,6 +1,6 @@
-- name: agregando PHP PPA
+- name: Instalando apache httpd
   apt:
-    name: software-properties-common
+    name: apache
     state: present
   become: true
   when: ansible_os_family == "Debian"
