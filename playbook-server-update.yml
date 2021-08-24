@@ -1,5 +1,5 @@
 -
   name: Actualizacion de servidores
-  host: all
+  hosts: all
   roles:
     - server-update
