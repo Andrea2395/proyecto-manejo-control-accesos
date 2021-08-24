@@ -21,3 +21,11 @@
     state: restarted
   become: true
   when: ansible_os_family == "Debian"
+
+- name: Copiando archivo info.php
+  ansible.builtin.copy:
+    src: /home/andreaRM/info.php
+    dest: /var/www/html/info.php
+    remote_src: yes
+  become: true
+  when: ansible_os_family == "Debian"
