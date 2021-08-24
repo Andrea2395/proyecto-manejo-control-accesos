@@ -1,6 +1,6 @@
 - name: Instalando apache httpd
   apt:
-    name: apache
+    name: apache2
     state: present
   become: true
   when: ansible_os_family == "Debian"
