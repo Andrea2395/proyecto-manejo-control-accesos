@@ -1,3 +1,3 @@
 [dev]
 dev-ubuntu ansible_host=138.91.120.115 ansible_connection=ssh ansible_ssh_pass=Yoda2816*Naga ansible_ssh_user=andreaRM ansible_python_interpreter=/usr/bin/python3
-dev-centOS ansible_host=52.165.144.17 ansible_connection=ssh ansible_ssh_pass=Yoda2816*Naga ansible_ssh_user=andreaRM ansible_python_interpreter=/usr/bin/python3
+dev-centOS ansible_host=20.102.83.238 ansible_connection=ssh ansible_ssh_pass=Yoda2816*Naga ansible_ssh_user=andreaRM ansible_python_interpreter=/usr/bin/python3
